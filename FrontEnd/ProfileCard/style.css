@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+#profile-box {
+    
+    height: 450px;
+    width: 350px;
+    background: rgb(0, 26, 51);
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 0 20px rgba(255, 255, 255, 0.111);
+}
+
+#profile-box:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.2);
+}
+
+
+
+#profile-box img{
+    margin-top: 15px;
+    height: 220px;
+    border-radius: 60%;
+}
+
+i {
+    font-size: 1.8em;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+}
+
+i:hover {
+    font-size: 2.6em;
+    margin: 15px;
+    /* color: rgb(255, 255, 255); */
+    transform: translateY(-10px) scale(1);
+}
+
+.fa-regular.fa-envelope:hover{
+    color: rgb(255, 158, 158);
+}
+
+.fa-brands.fa-linkedin:hover{
+    color: rgb(13, 66, 118);
+}
+
+.fa-brands.fa-github:hover{
+    color: rgb(75, 76, 77);
+}
